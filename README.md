@@ -43,10 +43,10 @@
 ![Criando](images/Vm12)
 
 14. Espere excutar a validação
-[Validação](images/Vm13)
+![Validação](images/Vm13)
 
 15. Após a validação concluída, aperte em criar e seu recurso estará pronto.
-[Finalizando MV](images/Vm14)
+![Finalizando MV](images/Vm14)
 
 Vale lembrar que este foi apenas um teste, modifique de acordo com seu projeto, se gostou compartilhe em suas redes e até a próxima.
 
