@@ -23,8 +23,32 @@
 [Mostrando os tipos](images/Vm6.1)
 
 8. Hora de escolher a imagem ou como ela vai se comportar seria basicamente o sistema operacional em que ela vai se espelhar, *eu usei o Windows 2025, mas fica a sua escolha e necessidade*
-[Pagina inicial](images/Vm7)
-[Pagina inicial](images/Vm7.1)
+[Escolher imagem](images/Vm7)
+[opções de imagem](images/Vm7.1)
+
+9. Escolha qual arquitetura se encaixa melhor com a imagem, *neste caso apenas a opção x64 estava disponível para a imagem escolhida*
+[Arquitetura MV](images/Vm8)
+
+10. Agora entramos na reta final, escolha o tamanho, cada tamanho tem um valor e recursos específicos, *caso queira fazer um teste use o Standart*
+[Tamanho do MV](images/Vm9)
+
+11. Crie a conta do Administrador
+[Conta do Adm](images/Vm10)
+
+12. Escolha as portas de entrada, *vale lembrar que as escolhidas foram apenas para um teste, escolha a melhor para seu caso*
+[Portas de Entrada](images/Vm11)
+[Opções de porta](images/Vm11.1)
+
+13. Agora por fim clique em revisar+criar
+[Criando](images/Vm12)
+
+14. Espere excutar a validação
+[Validação](images/Vm13)
+
+15. Após a validação concluída, aperte em criar e seu recurso estará pronto.
+[Finalizando MV](images/Vm14)
+
+Vale lembrar que este foi apenas um teste, modifique de acordo com seu projeto, se gostou compartilhe em suas redes e até a próxima.
 
 
 
