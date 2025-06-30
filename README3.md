@@ -1,52 +1,68 @@
 # **Como usar o Language AI Azure**
 
-1. Entre na página da Azure e coloque seu e-mail e senha
+## Criando uma linguagem no Azure
 
-2. Após logado, no painel inicial procure por Máquina Virtual ou vá na lupa e pesquise por Máquina Virtual
-![Pagina inicial](images/Laz1)
+1. Entre na página da Azure e coloque seu e-mail e senha;
 
-3. Ao ser direcionado pra pagina de MV(*Máquina Virtual*), selecione criar
-![Criando uma MV](images/Vm2)
+2. Após logado, no painel inicial procure por **Mais serviços** ou vá na lupa e pesquise por **IA+Machine Learning**;
+![pagina inicial](images/Laz1)
 
-4. Selecione a opção Máquina Virtual
-![Selecione MV](images/Vm3)
+3. Você será direcionado para página de **Todos os serviços** usando a primeira forma, clique no filtro **Tudo** e procure por **IA+Machine Learning**, vá no segundo filtro e pesquise **Language**, selecione o mesmo;
+![td_sv](images/Laz2)
+![ia_ml](images/Laz2.1)
+![language](images/Laz2.2)
 
-5. Você necessitará fazer algumas configurações para criar sua MV, primeiro em Detalhes da instância, coloque o nome, a região que sua MV vai operar e as opções de disponibilidade disponíveis, *no caso da imagem abaixo escolhi a região sul do Brasil e não outras escolhas na opção de disponibilidade e opções de zona, ao fazer uma personalização da sua fique atento as diferenças e personalise do seu modo.*
-![Detalhes da Instância](images/Vm4)
+4. Ao ser direcionado pra pagina de **Language**, selecione criar
+![criar](images/Laz3)
 
-6. Agora vamos escolher a zona de disponibilidade, podendo escolher de 1 a 3 e selecionar mais de uma opção.
-![Opções de Zona](images/Vm5)
-![Mostrando opções](images/Vm5.1)
+5. Ao ser direcionado para proxima pagina, selecione **Continue to create your resource**;
+![continue](images/Laz4)
 
-7. Escolha um dos tipos de segurança
-![Tipos de Segurança](images/Vm6)
-![Mostrando os tipos](images/Vm6.1)
+6. Você necessitará fazer algumas configurações, primeiro em Detalhes do projeto, coloque sua **Assinatura** e o **Grupo de recursos**, onde queres deixar o novo recurso;
+![detalhes do projeto](images/Laz5)
 
-8. Hora de escolher a imagem ou como ela vai se comportar seria basicamente o sistema operacional em que ela vai se espelhar, *eu usei o Windows 2025, mas fica a sua escolha e necessidade*
-![Escolher imagem](images/Vm7)
-![opções de imagem](images/Vm7.1)
+7. Em **Detalhes da instância**, vamos escolher a **Região**, escrever um **Nome** e por fim colocar o **Tipo de preço**, *nesta etapa caso esteja fazendo um teste coloque a opção **F0***;
+![detalhes da_instancia](images/Laz6)
+![regiao](images/Laz6.1)
+![nome](images/Laz6.2)
+![tipo_preco](images/Laz6.3)
 
-9. Escolha qual arquitetura se encaixa melhor com a imagem, *neste caso apenas a opção x64 estava disponível para a imagem escolhida*
-![Arquitetura MV](images/Vm8)
+8. Vá até o fim da pagina e marque a caixa *Aviso de Uso Responsável da IA*, na sequência selecione **Examinar + criar**;
+![examinar](images/Laz7)
 
-10. Agora entramos na reta final, escolha o tamanho, cada tamanho tem um valor e recursos específicos, *caso queira fazer um teste use o Standart*
-![Tamanho do MV](images/Vm9)
+9. Será executado uma validação dos dados;
+![validacao](images/Laz8)
 
-11. Crie a conta do Administrador
-![Conta do Adm](images/Vm10)
+10. Após a validação concluída será redirecionado para pagina de inicialização do recurso, aguarde até ser redirecionado para pagina dos recursos e pronto é só utilizar sua linguagem.
+![detalhes do projeto](images/Laz9)
+![detalhes do projeto](images/Laz9.1)
 
-12. Escolha as portas de entrada, *vale lembrar que as escolhidas foram apenas para um teste, escolha a melhor para seu caso*
-![Portas de Entrada](images/Vm11)
-![Opções de porta](images/Vm11.1)
+## Entrando no Azure Language Studio
 
-13. Agora por fim clique em revisar+criar
-![Criando](images/Vm12)
+1. Ao entrar na plataforma, será solicitado suas credenciais do Azure;
 
-14. Espere excutar a validação
-![Validação](images/Vm13)
+2. Logado, abrirá um pop-up **Select an Azure resource**, nele coloque em **Azure directory**, o seu diretório de melhor escolha, *no teste foi usado o padrão*, em **Azure subscription**, coloque sua assinatura, em **Resource type**, coloque o tipo do recurso que você quer usar, *no caso vai ser Language* e por último ele abrirá a seleção do **Resource name**, selecione o nome do recurso criado e pronto poderá navegar na plataforma.
+![select_resource](images/Laz10)
 
-15. Após a validação concluída, aperte em criar e seu recurso estará pronto.
-![Finalizando MV](images/Vm14)
+## Entrando em Análise de sentimento
+
+1. Na pagina inicial, selecione o botão **Classify text**, logo abrirá algumas opções, role para baixo até achar **Analyze sentiment and mine opinions**, clique nesta opção;
+![classify](images/Laz11)
+![analyze](images/Laz11.1)
+
+2. No inicio da pagina **Enter some text to try out**, selecione a língua que seu texto deve ser analisado, em **Select text language**, abaixo selecione o seu recurso, em **Select your Azure resource** e cole o texto de sua preferência, *neste caso foi utilizado uma avaliação em um aplicativo de compras de um computador*;
+![enter_txt](images/Laz12)
+
+3. Role até **Options**, deixe as duas caixas selecionadas e clique em **Run**.
+![run](images/Laz13)
+
+## Análises do texto
+
+Estas foram as análises geradas com o texto.
+![detalhes do projeto](images/Laz14)
+![detalhes do projeto](images/Laz14.1)
+![detalhes do projeto](images/Laz14.2)
+![detalhes do projeto](images/Laz14.3)
 
 Vale lembrar que este foi apenas um teste, modifique de acordo com seu projeto, se gostou compartilhe em suas redes e até a próxima.
 
